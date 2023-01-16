@@ -1,6 +1,6 @@
 # calculator-react
-A CALCULATOR MADE ON REACT
+Una calculadora hecha en react
 
 src v1:
 
-I have created a mask to the numbers, but this version doesn't do operations and doesn't have style
+He creado una máscara para los números pero esta versión aún no contiene operacíon ni estilo
