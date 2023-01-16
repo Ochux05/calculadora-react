@@ -11,6 +11,7 @@ var posComas = []
 var coma = 0
 var result
 
+// Aquí empieza la máscara
 function mascara(valor, seeNum, numTotal) {
     var numeroAMover
     var maskLen
