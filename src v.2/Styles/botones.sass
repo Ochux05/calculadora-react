@@ -1,0 +1,52 @@
+$sizeBtn: 1.5em
+$radiusExc: 0.3em
+
+.botones__li
+    display: inline
+    list-style: none
+
+    input
+        margin: 0.291em
+        width: $sizeBtn
+        height: $sizeBtn
+        border: none
+        border-radius: 50%
+        font-size: 3em
+        background-color: black
+        color: white
+
+    input:hover
+        color: black
+        border: 0.03em solid black
+        background-color: #D6D6D6
+
+
+input[operators="true"]
+    background: linear-gradient(to right, #460C50, #60156D)
+
+input[operators="true"]:hover
+    background: linear-gradient(to right, #7E248E, #B905D8)
+
+
+input[deletes="true"]
+    background: linear-gradient(to right, #670909, #770808 )
+
+input[deletes="true"]:hover
+    background: linear-gradient(to right, #9B1F1F, #B32626)
+
+
+#igual
+    border-radius: $radiusExc
+    width: $sizeBtn + 4.1em
+    background: linear-gradient(to right, #333333, #474747,)
+
+#igual:hover
+    background: linear-gradient(to right,#979797, #AEABAB)
+
+
+#CEid
+    border-radius: $radiusExc
+    text-indent: -0.05em
+
+#←id
+    border-radius: $radiusExc
